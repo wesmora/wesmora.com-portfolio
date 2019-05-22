@@ -1,0 +1,544 @@
+.box {
+  float: left;
+  width: 450px;
+  height: 450px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  /* margin-right:  */
+  padding: 5px;
+  border: 4px solid #BD5D38;
+  background: #A7AAAC;
+  overflow: auto;
+  box-shadow: 2px 25px 12px #ccc;
+  
+}
+
+.smallBox {
+  float: left;
+  width: 250px;
+  /* height: 400px; */
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #BD5D38;
+  text-align: center;
+  background-color: #BD5D38;
+  
+  /* overflow: auto; */
+}
+#container {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.block {
+  width: 400px;
+  height: 400px;
+  /* margin: 10px; */
+  display: inline-block;
+  background: #00CC99;
+}
+
+body {
+    /* background-color:white;  */
+    color: black; 
+    /* padding: 0px 150px 150px 125px;  */
+    font-family: Heebo;
+    /* margin: 0px 75px; */
+    /* background-image: url(fabric-3295563_1920.jpg); */
+
+
+  
+  }
+  
+p {
+      color: silver;
+      line-height: 23px;
+      text-align: center;
+  
+  
+  }
+
+h1,
+h2,
+/* h3, */
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  color: #343a40;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+  
+  h1 {
+      color: black;
+      text-align: center;
+      font-size: 96px, bold;
+      font-family: Saira Extra Condensed,-apple-system,'BlinkMacSystemFont','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+      /* background-image: linear-gradient(to left, rgba(0.75, 0, 0.75, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0.8, 0.8)); */
+      margin: 25px 0px;
+      /* background-image: linear-gradient(center to left, rgba(0, 0, 0, 0.75), rgba(0, 0.75, 0, 0), rgba(.75, 0, 0, 0)); */
+  
+  }
+  
+  h2 {
+      color: black;
+      text-align: center;
+      /* font-size: 25px; */
+  
+  }
+  
+  h3 {
+      color: white;
+      font-size: 20px;
+      font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      font-weight: 700;
+  }
+  
+  h4 {
+      color: black;
+      text-align: center;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+  
+  img {align-content: center;
+    box-align: center;
+    margin: -25px 0px -25px 0px;
+    
+  }
+
+  img {align-content: center;
+    box-align: center;
+    margin: -25px 0px -25px 0px;
+    /* box-shadow: 0 25px 12px #ccc; */
+  }
+
+  .portfolioImg {
+    align-content: center;
+    box-align: center;
+    margin: -25px 0px -25px 0px;
+    box-shadow: 0 25px 12px #ccc;
+    
+  }
+
+  td, li {
+    float: left;
+    margin-left: 0px;
+    padding-left: 25px;
+  }
+  
+
+  .wesText {
+    color: #BD5D38 !important;
+      font-size: 96px;
+      /* color: white; */
+  text-shadow: 2px 2px 4px #000000;
+
+  animation-duration: 2s;
+  animation-delay: 0s;
+  justify-content: center;
+  margin-top: -15px;
+  
+  /* animation-iteration-count: infinite; */
+  }
+  .moraText {
+    /*   color: #BD5D38 !important; */
+      color: #BD5D38 !important;
+      font-size: 96px;
+      text-shadow: 2px 2px 4px #000000;
+      
+      /* animation-duration: 1.5s;
+      animation-delay: .5s; */
+    
+    }
+
+    .landingMsg {
+      animation-duration: 3.5s;
+      animation-delay: 0s;
+    }
+  .row {
+     align-content: center;
+  }
+  
+  #photo {
+    text-align: center;
+    /* padding: 0px 425px; */
+    /* box-align: fixed; */
+  }
+  .photo {
+    animation-duration: 2.5s;
+  animation-delay: 0s;
+  margin-top: -40px;
+  }
+
+  #clear {
+    clear: both;
+  }
+
+  div {
+      line-height: 25px;
+      /* margin: 50px; */
+      }
+  .div {
+    /* margin: 50px; */
+    line-height: 0px;
+    
+  }
+  
+  hr {
+      
+      border: 0;
+      /* height: 1px; */
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+  }
+
+  /* .section1
+  {
+    background: silver;
+  } */
+
+  .imgBio {
+  
+  }
+
+.jumbotron-billboard .imgBio {
+    margin-bottom: 0px;
+    opacity: 0.5;
+    /* color: #fff; */
+    background-image: url(samuel-zeller-379406-unsplash.jpg);    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    /* filter: alpha(opacity=60); */
+}
+/* .jumbotron h2 {margin-top:0;} */
+.jumbotron {
+  position:relative;
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+  .teckSkillsContainer {
+    /* background: #BD5D38; */
+    margin: 1px;
+  }
+
+  .techSkills {
+    /* margin: 50px 250px 50px 250px; */
+    /* padding: 50px 10px; */
+    /* margin: 50px; */
+    padding-bottom: 175px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+  }
+
+  .tech-section{
+    background-color: #BD5D38;
+    /* padding: 0px 500px; */
+    margin-bottom: 50px;
+  }
+
+  .portfolioContainer {
+    clear: both;
+    width: auto;
+  height: 400px;
+  
+  /* padding-left: 100px; */
+    /* background-size: 50% 50%; */
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .educationContainer {
+  
+  }
+
+  .careerHighlights {
+    /* background: white; */
+    padding: 100px;
+   
+    /* background-image: url(fabric-3295563_1920.jpg); */
+    /* background-image: url(retro-3246123_1920.jpg); */
+    /* background-image: url(silver-955496_1920.jpg); */
+
+    /* background-image: url(alice-donovan-rouse-177313-unsplash.jpg); */
+    /* background-position: center center; */
+    /* background-size: 100% 100%; */
+  }
+
+  .employmentContainer{
+    clear: both;
+    background: #BD5D38;
+    /* background-image: url(fabric-3295563_1920.jpg); */
+    padding: 100px;
+    
+  }
+  .colorContact {
+    /* float: right; */
+    clear: both;
+    /* display: block; */
+    padding: 100px;
+    background-size: 100% 100%; 
+  }
+
+  .aboutMe {
+    /* float: right; */
+    clear: both;
+    /* display: block; */
+    padding: 100px;
+    background-size: 100% 100%; 
+    background-color: #A7AAAC;
+  }
+  .mainImage {
+    /* background-color: #8C2325; */
+    z-index:1;
+  }
+  .jumbotron {
+    /* opacity: .5; */
+    
+
+  }
+  .container1 {
+    /* float: left; */
+    margin: 0px 0px;
+    /* width: auto; */
+    background: gray;
+    text-align: center;
+  }
+
+  .landingImage {
+    padding: 0px 150px 150px 125px; 
+    margin: 0px 0px -125px 0px;
+    /* background-image: url(gerrie-van-der-walt-469060-unsplash.jpg); */
+    /* background-image: url(denys-nevozhai-191628-unsplash.jpg); */
+    background-image: url(samuel-zeller-379406-unsplash.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+
+  .educationImage {
+    /* background-image: url(fabric-3295563_1920.jpg); */
+    /* background-image: url(silver-955496_1920.jpg); */
+    /* color: gray; */
+    /* opacity: .5; */
+    background: #A7AAAC;
+    /* background-size: 100%; */
+  }
+
+  
+  /* .container2 {
+    float: right;
+    width: auto;
+    clear: both;
+    background: gray;
+  } */
+
+    .subheading {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      font-size: 3rem;
+      text-align: center;
+    }
+    
+    .social-icons a {
+      display: inline-block;
+      height: 5rem;
+      width: 5rem;
+      /* background-color: #495057; */
+      background-color:#66686A;
+      color: #fff !important;
+      border-radius: 100%;
+      text-align: center;
+      font-size: 3rem;
+      line-height: 3.5rem;
+      margin-right: 1rem;
+    }
+    
+    .social-icons a:last-child {
+      margin-right: 0;
+    }
+    
+    .social-icons a:hover {
+      background-color: #BD5D38;
+    
+    }
+    
+    .dev-icons {
+      font-size: 8rem;
+      width: 100%;
+      height: 100%;
+      /* padding: 25px 40px 25px 80px; */
+    }
+    
+    .dev-icons .list-inline-item i:hover {
+    /*   color: #BD5D38; */
+      color:white;
+      /* width: 200px; */
+    }
+  
+  
+  .dark {
+      background-color: black;
+      border-left: 0;
+      height: 1px;
+      background-image: linear-gradient(to left, rgba(0.75, 0, 0.75, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0.8, 0.8));
+  
+  }
+  
+  /*body {font-family: Arial, Helvetica, sans-serif;}*/
+  
+  .navbar {
+    width: 100%;
+    background-color: none;
+    overflow: auto;
+    /* background-image: linear-gradient(to left, rgba(0.75, 0, 0.75, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0.8, 0.8)); */
+  }
+  
+  .navyes { opacity: .8;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .navbar a:hover {
+    background-color: #868E96;
+  }
+  
+  .active {
+    background-color: #343A40;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block; 
+    }}
+
+  footer {
+    align-content: center;
+    text-align: center;
+    background: #BD5D38;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 50px;
+  }
+
+
+
+
+
+
+
+
+
+  img {
+    width: 20%;
+    /* float: left; */
+    margin: 1.66%;
+}
+
+/* p {
+    font-family: heebo;
+    font-size: 23px;
+    margin-left: 1.66%;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid silver;
+    width: 30%;
+    padding-bottom: 20px;
+    color: silver;
+    text-transform: uppercase */
+
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: red;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progressbar {
+  height: 15px;
+  border-radius: 1em;
+  margin:5px;
+  background: 
+    linear-gradient(-45deg,
+      rgba(255, 255, 255, 0.15) 25%,transparent 25%, 
+      transparent 50%, rgba(255, 255, 255, 0.15) 50%, 
+      rgba(255, 255, 255, 0.15) 75%,transparent 75%) 
+    left/30px 30px repeat-x,
+    linear-gradient(to right, red 0%, yellow 50%, green 100%) left/var(--p,100%) fixed,
+    lightgray;
+box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+animation: change 1s linear infinite;
+}
+@keyframes change {
+from {background-position:0 0,left}
+to {background-position:30px 0,left}  
+}
+
+
+
+
+
+
+
