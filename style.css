@@ -1,406 +1,570 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Wes Mora Portfolio</title>
-
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="reset.css">
-		<link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="style.css">
-		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-			<!-- animate.css CDN  -->
-		<head>
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-		</head>
-
-		<!-- Wicked CSS CDN -->
-		<link rel="stylesheet" href="css/wickedcss.css">
-
-		<!-- FONTS -->
-		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  		<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  		<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-	</head>
-	<body>
-		<!-- /* <div style="background-color: #272b2a; color: white; padding: 125px; font-family: Heebo;"> */ -->
-	
-<section>
-			
-	<div class="landingImage">
-	 <nav>
-		<div class="navbar navyes">
-		<a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
-		<a href="#AboutMe"><i class=""></i> About Me</a>
-		<a href="#contact"><i class=""></i>Contact</a>
-		<a href="#portfolio"><i class=""></i> Portfolio</a>
-		<a href="#education"><i class=""></i> Education</a>
-		<a href="wes-resume-feb-2019.pdf"><i class="fas fa-file-pdf"></i> Resume PDF</a>
-		<div class="social-icons">
-		<a href="https://www.linkedin.com/in/wes-mora-19567544/"><i class="fab fa-linkedin"></i> </a>
-		<a href="#"><i class="fab fa-github">Github</i>
-		<a href="#"><i class="fab fa-twitter"></i></a>
-		
-	</div>
-
-		<!-- <div class="social-icons">
-          <a href="https://www.linkedin.com/in/wes-mora-19567544/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="#"><i class="fab fa-github">Github</i>
-          </a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div>
-      </div> -->
-
-		
-		</div>
-			</nav>
-			 
-		
-			<div class="jumbotron jumbotron-billboard">
-					<div class="imgBio "></div>
-					  <div class="container">
-						  <div class="row">
-							  <div class="col-lg-12">
-									<div id="photo">
-										<div class="photo zoomInDown">
-											<img src="wes-bio-image-round.png" class="floater" alt="bio-photo"></div>
-											</div>	
-											<br>
-											<!-- <h1 class="display-4">WES MORA</h1> -->
-											<h1 class="wesText lightSpeedIn">WES
-													<span class="moraText">MORA</span>
-													</h1>
-													
-											<!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about"> -->
-													<!-- <div class="w-100"> -->
-													  <!-- <h1 class="wesText">WES
-														<span class="moraText">MORA</span>
-													  </h1> -->
-													  <!-- <div class="contactText">Salt Lake City · (801) 674-5000 ·
-														<a href="mailto:hire.me@wesmora.dev">hire.me@wesmora.dev</a>
-													  </div> -->
-											
-											<!-- <h2>Summary</h2> -->
-								  
-								  <!-- <div class="container"> -->
-						<!-- <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Click Me!</button>
-						<div id="demo" class="collapse"> -->
-							<br><br><br>
-							
-							<h2 class="landingMsg bounceInLeft">Since when did visibility become a privilege that's offered to only a select few? We should all be so fortunate.</h2>
-						  </div>
-						 </div>
-						</div>
-					  </div>
-					</div>
-				  <!-- </div> -->
-
-
-</section>
-	
-
-<section class="tech-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-		<div class="container-fluid teckSkillsContainer">
-		<div class="w-100">
-		
+.box {
+  float: left;
+  width: 450px;
+  height: 450px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  /* margin-right:  */
+  padding: 5px;
+  border: 4px solid #BD5D38;
+  background: #A7AAAC;
+  overflow: auto;
+  box-shadow: 2px 25px 12px #ccc;
   
-			<h2 class="mb-5">Skills</h2><br>
-			<div class="techSkills">
-		  <!-- <div class="subheading mb-3">Programming Languages</div> -->
-		  <ul class="list-inline dev-icons">
-			
-				<li class="list-inline-item">
-						<i class="fab fa-wordpress"></i>
-						<h4>Wordpress</h4>
-						<!-- <div class="progressbar" style="--p:0;width:60%;"></div> -->
-					</li>
-					
-			
-				</li>
-				<li class="list-inline-item">
-					<i class="fab fa-adobe"></i>
-					<h4>Photoshop</h4>
-					<!-- <div class="progressbar" style="--p:0;width:30%;"></div> -->
-				</li>
-	
-				
-			</li>
-			<li class="list-inline-item">
-					<i class="fas fa-video"></i>
-					<h4>Adobe Premiere</h4>
-				<!-- <div class="progressbar" style="--p:0;width:30%;"></div> -->
-			</li>
-			
-			
-			<li class="list-inline-item">
-			  <i class="fab fa-html5"></i><br>
-				<h4>HTML</h4>
-				<!-- <div class="progressbar" style="width:80%;"></div> -->
-			</li>
-			
-			<li class="list-inline-item">
-			  <i class="fab fa-css3-alt"></i>
-				<h4>CSS</h4>
-				<!-- <div class="progressbar" style="width:90%;"></div> -->
-			</li>
-			
-			<li class="list-inline-item">
-			  <i class="fab fa-js-square"></i>
-				<h4>JAVASCRIPT</h4>
-				<!-- <div class="progressbar" style="width:20%;"></div> -->
-			</li>
-			
-			<li class="list-inline-item">
-					<i class="fab fa-php"></i>
-					<h4>PHP</h4>
-					<!-- <div class="progressbar" style="--p:0"></div> -->
-				</li>
-				
+}
 
-
-		</li>
-		<li class="list-inline-item">
-				<i class="fas fa-blog"></i>
-				<h4>Blogger</h4>
-			<!-- <div class="progressbar" style="--p:0;width:30%;"></div> -->
-		</li>
-		  </ul>
+.smallBox {
+  float: left;
+  width: 250px;
+  /* height: 400px; */
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #BD5D38;
+  text-align: center;
+  background-color: #BD5D38;
   
-		  </ul>
-		</div>
-	</div>
-</div>
-	  </section>
+  /* overflow: auto; */
+}
+#container {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.container{
+  align-content: center;
+  margin: 0px 250px;
+}
+
+.block {
+  width: 400px;
+  height: 400px;
+  /* margin: 10px; */
+  display: inline-block;
+  background: #00CC99;
+}
+
+body {
+    /* background-color:white;  */
+    color: black; 
+    /* padding: 0px 150px 150px 125px;  */
+    font-family: Heebo;
+    /* margin: 0px 75px; */
+    /* background-image: url(fabric-3295563_1920.jpg); */
 
 
-	<section>
-			<h2>Portfolio Projects</h2>
-<div class="projects">
-<!-- <section class="" id="portfolio"> -->
-<!-- <div class="portfolioContainer"> -->
-	
+  
+  }
+  
+p {
+      color: silver;
+      line-height: 23px;
+      text-align: center;
+  
+  
+  }
 
-	<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg">
-	<!-- <img src="michal-kubalczyk-505207-unsplash.jpg"> -->
-	<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
-	<!-- <img src="fabian-grohs-485297-unsplash.jpg"> -->
-	<img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg">
-	<!-- <img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg"> -->
-	<!-- <h1>testOne</h1> -->
-	<!-- <h1>testTwo</h1>
-	<h1>testThree</h1>
-	<h1>testFor</h1> -->
-	<h1></h1>
-	
+h1,
+h2,
+/* h3, */
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  color: #343a40;
+  font-size: 24px;
+}
 
-</div>
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
 
-</section>
-	  
-<section class="" id="education">
-				<div class="educationContainer">
-	
-			<div class=" educationImage">
-					<div class="img"></div>
-					<div class="container">
-			
-							<br>
-			<h2>Education</h2>
-			
-		<br>
-		<div>
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
 
-			<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-					<div class="resume-content">
-					  <h3 class="mb-0">Salt Lake Community College</h3><br>
-					  <div class="subheading mb-3">Web Design Boot Camp</div>
-					  <br>
-					  <h5>In the process of completing a 23-week professional training certification course focused on the skills needed to design
-												   and build web applications. The program includes hundreds of hours of professional development and hands-on practice. 
-		  
-		  <br><br>Program focus:
-		  <br>
-		  <br>
-		  • Adobe Photoshop Creative Cloud<br>
-		  • Front-End Web Development Using Photoshop, HTML, CSS, Javascript, Bootstrap<br>
-		  • Back-end Development In PHP<br>
-		  • Capstone Project And Showcase<br>
-		  • Internship Designing For Local Business Partners<br></h5>
-					</div>
+}
 
-					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-							<div class="resume-content">
-							  <h3 class="mb-0">University of Utah</h3><br>
-							  <div class="subheading mb-3">Coding Boot Camp, Full-Stack Web Development</div>
-							  <div>Completed a 24-week professional training certification course focused on the skills needed to build fully responsive end to end web applications.
-								  The program includes over 500 hours of professional development and hands-on practice. 
-				  
-				  <br><br>The program focused on:
-				  <br>
-				  <br>
-				  • Programming Fundamentals<br>
-				  • Product Development Basics<br>
-				  • Front-End Web Development Using HTML5, CSS3, Javascript, Bootstrap, AJAX, various JS libraries<br>
-				  • Back-end Development Using APIs, PHP, NODE.js, Express.js, MySQL, MongoDB<br>
-				  • Database Theory<br>
-				  • Command Line, Git<br>
-					</div>
+h3 {
+  font-size: 2rem;
+}
+
+  
+  h1 {
+      color: black;
+      text-align: center;
+      font-size: 96px, bold;
+      font-family: Saira Extra Condensed,-apple-system,'BlinkMacSystemFont','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+      /* background-image: linear-gradient(to left, rgba(0.75, 0, 0.75, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0.8, 0.8)); */
+      margin: 25px 0px;
+      /* background-image: linear-gradient(center to left, rgba(0, 0, 0, 0.75), rgba(0, 0.75, 0, 0), rgba(.75, 0, 0, 0)); */
+  
+  }
+  
+  h2 {
+      color: black;
+      text-align: center;
+      /* font-size: 25px; */
+  
+  }
+  
+  h3 {
+      color: white;
+      font-size: 20px;
+      font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      font-weight: 700;
+  }
+  
+  h4 {
+      color: black;
+      text-align: center;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+  
+  img {align-content: center;
+    box-align: center;
+    margin: -25px 0px -25px 0px;
+    
+  }
+
+  img {align-content: center;
+    box-align: center;
+    margin: -25px 0px -25px 0px;
+    /* box-shadow: 0 25px 12px #ccc; */
+  }
+
+  .portfolioImg {
+    align-content: center;
+    box-align: center;
+    margin: -25px 0px -25px 0px;
+    box-shadow: 0 25px 12px #ccc;
+    
+  }
+
+  td, li {
+    float: left;
+    margin-left: 0px;
+    padding-left: 25px;
+  }
+  
+
+  .wesText {
+    color: #BD5D38 !important;
+      font-size: 96px;
+      /* color: white; */
+  text-shadow: 2px 2px 4px #000000;
+
+  animation-duration: 2s;
+  animation-delay: 0s;
+  justify-content: center;
+  margin-top: -15px;
+  
+  /* animation-iteration-count: infinite; */
+  }
+  .moraText {
+    /*   color: #BD5D38 !important; */
+      color: #BD5D38 !important;
+      font-size: 96px;
+      text-shadow: 2px 2px 4px #000000;
+      
+      /* animation-duration: 1.5s;
+      animation-delay: .5s; */
+    
+    }
+
+    .landingMsg {
+      animation-duration: 3.5s;
+      animation-delay: 0s;
+    }
+  .row {
+     align-content: center;
+  }
+  
+  #photo {
+    text-align: center;
+    /* padding: 0px 425px; */
+    /* box-align: fixed; */
+  }
+  .photo {
+    animation-duration: 2.5s;
+  animation-delay: 0s;
+  margin-top: -40px;
+  }
+
+  #clear {
+    clear: both;
+  }
+
+  div {
+      line-height: 25px;
+      /* margin: 50px; */
+      }
+  .div {
+    /* margin: 50px; */
+    line-height: 0px;
+    
+  }
+  
+  hr {
+      
+      border: 0;
+      /* height: 1px; */
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+  }
+
+  /* .section1
+  {
+    background: silver;
+  } */
+
+  /* .imgBio {
+  
+  } */
+
+.jumbotron-billboard .imgBio {
+    margin-bottom: 0px;
+    opacity: 0.5;
+    /* color: #fff; */
+    background-image: url(samuel-zeller-379406-unsplash.jpg);    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    /* filter: alpha(opacity=60); */
+}
+/* .jumbotron h2 {margin-top:0;} */
+.jumbotron {
+  position:relative;
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+  .teckSkillsContainer {
+    /* background: #BD5D38; */
+    margin: 1px;
+    /* width: 400px; */
+    align-content: center;
+    padding: 50px 200px;
+  }
+
+  .techSkills {
+    /* margin: 50px 250px 50px 250px; */
+    /* padding: 50px 10px; */
+    /* margin: 50px; */
+    /* padding-bottom: 175px;
+    padding-left: 70px;
+    padding-right: 70px;
+    /* padding: 0px 250px; */
+    /* margin: 0px 150px; */
+    /* align-content: center; */
+    padding-left: 70px;
+    
+  }
+
+  .projects {
+   margin-left:525px;
+   /* padding-left: 70px; */
 
 
-					<div class="resume-date text-md-right">
+  }
 
-					</div>
-				  </div>
-				</div>
-		  
-				</div>
-		</div>
-		</div>
+  .tech-section{
+    background-color: #BD5D38;
+    /* padding: 0px 500px; */
+    margin-bottom: 70px;
+  
+  }
 
-</section>
+  .portfolioContainer {
+    clear: both;
+    width: auto;
+  height: 400px;
+  
+  /* padding-left: 100px; */
+    /* background-size: 50% 50%; */
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-	<div class="careerHighlights">
-			<h2>Career Highlights</h2>
-				<div class="projects">
-					<div class="row">
-						<div class=".col-lg-12">
+  /* .educationContainer {
+  
+  } */
 
-						</div>
-					</div>
-				
-			
-				<br>
-				<div class="box"><h2>Web Development</h2><h5>Developed front­end web applications using HTML/CSS and JavaScript. 
-				<br>Used GitHub best practices to control the source of coding projects and managed versions of software during development. 
-				<br><br> Experience using PHP, Bootstrap, and other front­end and back­end technologies. 
-				<br> Learned multiple languages and design programs centered around web development. 
-				<br> Created website content, design, and updated web page content. 
-			</h5>
-			</div>
-			<!-- <br> -->
-			<!-- <h3>Marketing</h3> -->
-			<!-- <br> -->
-			<div class="box"><h2>Marketing</h2><h5>Partnered with the marketing department to continually perfect client advertising campaigns. 
-				<br>Developed programs with the marketing department for clients, and effectively execute marketing programs. 
-				<br><br> Collaborated with sister company Real Media to implement new company direction regarding branding.
-				<br>Met regularly with department heads to brainstorm result driven ideas.</h5> 
-			</div>
+  .careerHighlights {
+    /* background: white; */
+    padding: 100px;
+   
+    /* background-image: url(fabric-3295563_1920.jpg); */
+    /* background-image: url(retro-3246123_1920.jpg); */
+    /* background-image: url(silver-955496_1920.jpg); */
 
-		
-			<!-- <br> -->
-			<!-- <h3>Content Creation</h3> -->
-			<!-- <br> -->
-			<div class="box"><h2>Content Creation</h2><h5>Wrote stories, shot & edited footage, managed online web content as well as social media content. 
-				<br> Hosted and produced a daily radio program talking about pop culture, local stories, and life. 
-				<br><br>Coordinated, planned and conducted live interviews with local leadership and community personnel for on­air radio content. 
-				<br><br>  Applied audio production skills to creatively utilize all aspects of digital audio editing and creation to design client radio marketing ads.</h5> 
-			</div>
-			<!-- <br> -->
-			<!-- <h3>Commitment to Projects</h3> -->
-			<!-- <br> -->
-			<div class="box"><h2>Commitment to Projects</h2> <h5>Produced over 500 events in a calendar year with a team of 10 executing live radio broadcasts, recording artist showcase 			    performances, and large convention events. 
-				<br><br>  Adept at working in a fast paced, deadline oriented, collaborative environment. 
-				<br><br>  Motivated sales managers and assisted in the development of promotions for clients that effectively helped grow brand awareness.</h5>
-			</div>
-		</div>
-		
-	</section>
-		</div>
-			<div class="employmentContainer">
-	<section>
-		<br>
-		<h2>Employment</h2>
-		<br>
-		<div><h5>Radio Host & Content Creator | Broadway Media | Salt Lake City | Feb 2015 ­ Dec 2018</h5>
-			 <h5>Audio Engineer | Instore Audio Network | Salt Lake City | May 2005 – Dec 2014</h5> 
-			 <h5>Production Director | Alpha Media USA | Salt Lake City | October 2015 ­ June 2016</h5>
-			 <h5>Brand Manager & Director of Promotions | iHeartMedia | SLC | Nov 2011 ­ Dec 2013</h5> 
-			 <h5>Morning Show Radio Host | Simmons Media | Salt Lake City | May 2010 ­ August 2011</h5>
-		</div>
-	</div>
-</div>
-</div>
-	</section>
-			</div>
+    /* background-image: url(alice-donovan-rouse-177313-unsplash.jpg); */
+    /* background-position: center center; */
+    /* background-size: 100% 100%; */
+  }
+
+  .employmentContainer{
+    clear: both;
+    background: #BD5D38;
+    /* background-image: url(fabric-3295563_1920.jpg); */
+    padding: 100px;
+    
+  }
+  .colorContact {
+    /* float: right; */
+    clear: both;
+    /* display: block; */
+    padding: 100px;
+    background-size: 100% 100%; 
+  }
+
+  .aboutMe {
+    /* float: right; */
+    clear: both;
+    /* display: block; */
+    padding: 100px;
+    background-size: 100% 100%; 
+    background-color: #A7AAAC;
+  }
+  .mainImage {
+    /* background-color: #8C2325; */
+    z-index:1;
+  }
+  /* .jumbotron {
+    /* opacity: .5; */
+    
+
+  /* }  */
+  .container1 {
+    /* float: left; */
+    margin: 0px 0px;
+    /* width: auto; */
+    background: gray;
+    text-align: center;
+  }
+
+  .landingImage {
+    padding: 0px 150px 150px 125px; 
+    margin: 0px 0px -125px 0px;
+    /* background-image: url(gerrie-van-der-walt-469060-unsplash.jpg); */
+    /* background-image: url(denys-nevozhai-191628-unsplash.jpg); */
+    background-image: url(samuel-zeller-379406-unsplash.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+
+  .educationImage {
+    /* background-image: url(fabric-3295563_1920.jpg); */
+    /* background-image: url(silver-955496_1920.jpg); */
+    /* color: gray; */
+    /* opacity: .5; */
+    background: #A7AAAC;
+    /* background-size: 100%; */
+  }
+
+  
+  /* .container2 {
+    float: right;
+    width: auto;
+    clear: both;
+    background: gray;
+  } */
+
+    .subheading {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      font-size: 3rem;
+      text-align: center;
+    }
+    
+    .social-icons a {
+      display: inline-block;
+      height: 5rem;
+      width: 5rem;
+      /* background-color: #495057; */
+      background-color:#BD5D38;
+      color: #fff !important;
+      border-radius: 100%;
+      text-align: center;
+      font-size: 3rem;
+      line-height: 4.5rem;
+      margin-right: 1rem;
+    }
+    
+    .social-icons a:last-child {
+      margin-right: 0;
+    }
+    
+    .social-icons a:hover {
+      background-color: #BD5D38;
+    
+    }
+    
+    .dev-icons {
+      font-size: 8rem;
+      width: 100%;
+      height: 100%;
+      /* padding: 25px 40px 25px 80px; */
+    }
+    
+    .dev-icons .list-inline-item i:hover {
+    /*   color: #BD5D38; */
+      color:white;
+      /* width: 200px; */
+    }
+  
+  
+  .dark {
+      background-color: black;
+      border-left: 0;
+      height: 1px;
+      background-image: linear-gradient(to left, rgba(0.75, 0, 0.75, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0.8, 0.8));
+  
+  }
+  
+  /*body {font-family: Arial, Helvetica, sans-serif;}*/
+  
+  .navbar {
+    width: 100%;
+    background-color: none;
+    overflow: auto;
+    /* background-image: linear-gradient(to left, rgba(0.75, 0, 0.75, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0.8, 0.8)); */
+  }
+  
+  .navyes { opacity: .8;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .navbar a:hover {
+    background-color: #868E96;
+  }
+  
+  .active {
+    background-color: #343A40;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block; 
+    }}
+
+  footer {
+    align-content: center;
+    text-align: center;
+    background: #BD5D38;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 50px;
+  }
 
 
-			<section class="" id="AboutMe">
-				<div class="aboutMe">
-					<h2>About Me</h2>
-
-					<!-- <p class="lead mb-5">  -->
-                           <h4>   
-							I'm a creator at heart, I love to work on new ideas and bring them to life. I've worked as a radio broadcaster - hosting shows, 
-							  producing content, as well as interviewing celebrities, influencers and local leaders on various topics. Today you find me working as a software developer. 
-							  I work on my craft daily to become a proficient developer. How can I help you today? Reach out to me and let's talk.
-					
-							</h4>
-					
-				<!-- <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nobis pariatur nostrum natus enim corporis labore perferendis quaerat eum? Illum corporis, expedita quasi officiis inventore quos incidunt maxime illo sequi.</h4> -->
-			</div>
-			</section>
-			
-			<section class="" id="contact">
-		<div class="colorContact">
-			<br>
-
-		</h1>
-		
-			<!-- <hr class=""> -->
-				<h2><em>Contact me</em></h2>
-				<br><br>
-
-				<h6>How can I help you? reach out to me and lets chat.</h6>
-
-				<h6>Phone Number (801) 674-5000
-						<br><br>
-						<h6>Email address</h6><a href="mailto:hire.me@wesmora.dev"><h6>hire.me@wesmora.dev</h6></a>
-						</h6>
-
-						<br><h6>Or</h6><br>
-						<h6>Send me a messege here &darr; and I'll get back to you as soon as possible.</h6>
-					<form action="/action_page.php">
-						First name:<br>
-						<input type="text" name="firstname" value="">
-							<br><br>
-								Last name: <br>
-							<input type="text" name="lastname" value="">
-						<br><br>
-						Email: <br>
-						<input type="email" name="Email" value="">
-						<br><br>
-					<br><br>
-						<form action="/action_page.php" id="usrform">
-						</form>
-						<br>
-						<textarea rows="6" cols="100" name="comment" form="usrform">
-							leave a comment.</textarea>
-							<br><br>
-						<input type="submit" value="Submit">
-					</form> 
-		</div>
-</section>
-		
-	</div>
 
 
 
-	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-	
-	</body>
 
-	<footer>Copyright &copy; 2019 WesMora.dev All Rights Reserved</footer>
-	
-</html>
+
+
+
+  img {
+    width: 20%;
+    /* float: left; */
+    margin: 1.66%;
+}
+
+/* p {
+    font-family: heebo;
+    font-size: 23px;
+    margin-left: 1.66%;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid silver;
+    width: 30%;
+    padding-bottom: 20px;
+    color: silver;
+    text-transform: uppercase */
+
+/* } */
+
+hr {
+    border: 0;
+    height: 2px;
+    background: red;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+
+
+/* .stories{
+  float: left;
+  width: 450px;
+  height: 350px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+} */
+
+
+
+
+
+
+
+
+
+.progressbar {
+  height: 15px;
+  border-radius: 1em;
+  margin:5px;
+  background: 
+    linear-gradient(-45deg,
+      rgba(255, 255, 255, 0.15) 25%,transparent 25%, 
+      transparent 50%, rgba(255, 255, 255, 0.15) 50%, 
+      rgba(255, 255, 255, 0.15) 75%,transparent 75%) 
+    left/30px 30px repeat-x,
+    linear-gradient(to right, red 0%, yellow 50%, green 100%) left/var(--p,100%) fixed,
+    lightgray;
+box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+animation: change 1s linear infinite;
+}
+@keyframes change {
+from {background-position:0 0,left}
+to {background-position:30px 0,left}  
+}
+
+
+
+
+
+
