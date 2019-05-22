@@ -32,6 +32,12 @@
   max-width: 450px;
   margin: 0 auto;
 }
+
+.containerTwo{
+  align-content: center;
+  margin: 0px 450px;
+}
+
 .block {
   width: 400px;
   height: 400px;
@@ -219,9 +225,9 @@ h3 {
     background: silver;
   } */
 
-  .imgBio {
+  /* .imgBio {
   
-  }
+  } */
 
 .jumbotron-billboard .imgBio {
     margin-bottom: 0px;
@@ -258,22 +264,37 @@ h3 {
   .teckSkillsContainer {
     /* background: #BD5D38; */
     margin: 1px;
+    /* width: 400px; */
+    align-content: center;
+    padding: 50px 300px;
   }
 
   .techSkills {
     /* margin: 50px 250px 50px 250px; */
     /* padding: 50px 10px; */
     /* margin: 50px; */
-    padding-bottom: 175px;
+    /* padding-bottom: 175px;
     padding-left: 70px;
     padding-right: 70px;
+    /* padding: 0px 250px; */
+    /* margin: 0px 150px; */
+    /* align-content: center; */
+    padding-left: 70px;
     
+  }
+
+  .projects {
+   margin-left:525px;
+   /* padding-left: 70px; */
+
+
   }
 
   .tech-section{
     background-color: #BD5D38;
     /* padding: 0px 500px; */
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+  
   }
 
   .portfolioContainer {
@@ -287,9 +308,9 @@ h3 {
     margin-right: 50px;
   }
 
-  .educationContainer {
+  /* .educationContainer {
   
-  }
+  } */
 
   .careerHighlights {
     /* background: white; */
@@ -331,11 +352,11 @@ h3 {
     /* background-color: #8C2325; */
     z-index:1;
   }
-  .jumbotron {
+  /* .jumbotron {
     /* opacity: .5; */
     
 
-  }
+  /* }  */
   .container1 {
     /* float: left; */
     margin: 0px 0px;
@@ -384,12 +405,12 @@ h3 {
       height: 5rem;
       width: 5rem;
       /* background-color: #495057; */
-      background-color:#66686A;
+      background-color:#BD5D38;
       color: #fff !important;
       border-radius: 100%;
       text-align: center;
       font-size: 3rem;
-      line-height: 3.5rem;
+      line-height: 4.5rem;
       margin-right: 1rem;
     }
     
@@ -493,7 +514,7 @@ h3 {
     color: silver;
     text-transform: uppercase */
 
-}
+/* } */
 
 hr {
     border: 0;
@@ -505,8 +526,14 @@ hr {
 
 
 
-
-
+/* .stories{
+  float: left;
+  width: 450px;
+  height: 350px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+} */
 
 
 
@@ -535,7 +562,6 @@ animation: change 1s linear infinite;
 from {background-position:0 0,left}
 to {background-position:30px 0,left}  
 }
-
 
 
 
