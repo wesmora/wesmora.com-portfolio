@@ -85,7 +85,8 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 6rem;
+  color: black:
 }
 
   
@@ -108,7 +109,7 @@ h3 {
   }
   
   h3 {
-      color: white;
+      /* color: white; */
       font-size: 20px;
       font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
       font-weight: 700;
@@ -121,6 +122,10 @@ h3 {
 
   h5 {
     font-size: 25px;
+  }
+
+  h6 {
+
   }
   
   img {align-content: center;
@@ -308,7 +313,7 @@ h3 {
     clear: both;
     background: #BD5D38;
     /* background-image: url(fabric-3295563_1920.jpg); */
-    padding: 100px;
+    padding: 0px;
     
   }
   .colorContact {
@@ -384,7 +389,7 @@ h3 {
       height: 5rem;
       width: 5rem;
       /* background-color: #495057; */
-      background-color:#66686A;
+      background-color:#BD5D38;
       color: #fff !important;
       border-radius: 100%;
       text-align: center;
@@ -535,6 +540,7 @@ animation: change 1s linear infinite;
 from {background-position:0 0,left}
 to {background-position:30px 0,left}  
 }
+
 
 
 
